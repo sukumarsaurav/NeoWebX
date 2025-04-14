@@ -101,9 +101,9 @@ require_once '../../components/header.php';
                         <h2>Contact Us</h2>
                         <p>If you have any questions about our Cookie Policy, please contact us at:</p>
                         <ul class="contact-info">
-                            <li>Email: privacy@neowebx.com</li>
-                            <li>Phone: +1 (555) 123-4567</li>
-                            <li>Address: 123 Tech Street, Silicon Valley, CA 94025</li>
+                            <li>Email: info@neowebx.com</li>
+                            <li>Phone: +91-9991289245</li>
+                            <li>Address: New Delhi, India</li>
                         </ul>
                     </div>
                 </div>

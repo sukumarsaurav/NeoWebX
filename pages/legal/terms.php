@@ -133,10 +133,9 @@ $lastUpdated = "January 1, 2023";
                 <p>If you have any questions about these Terms, please contact us at:</p>
                 <address>
                     NeoWebX<br>
-                    123 Tech Plaza<br>
-                    New York, NY 10001<br>
-                    Email: legal@neowebx.com<br>
-                    Phone: (555) 123-4567
+                    New Delhi, India<br>
+                    Email: info@neowebx.com<br>
+                    Phone: +91-9991289245
                 </address>
             </div>
         </div>
