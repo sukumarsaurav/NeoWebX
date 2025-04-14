@@ -1,3 +1,24 @@
+<?php
+// Include utility functions
+require_once __DIR__ . '/functions.php';
+
+// If meta description is not set, create a unique one for this page
+if (!isset($pageDescription) || empty($pageDescription)) {
+    $pageTitle = isset($pageTitle) ? $pageTitle : 'NeoWebX';
+    $pageDescription = getUniqueMetaDescription(
+        'NeoWebX provides web design, app development, AI services and digital marketing solutions.',
+        $pageTitle
+    );
+}
+
+// Set default SEO data if not provided
+if (!isset($seo_data)) {
+    $seo_data = array(
+        'description' => $pageDescription,
+        'keywords' => 'web design, app development, AI services, digital marketing, SEO'
+    );
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +36,6 @@
     <meta name="description" content="<?php echo htmlspecialchars($seo_data['description']); ?>">
     <meta name="keywords" content="<?php echo htmlspecialchars($seo_data['keywords']); ?>">
     <title><?php echo isset($pageTitle) ? $pageTitle : 'NeoWebX'; ?></title>
-    <meta name="description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Default site description'; ?>">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
