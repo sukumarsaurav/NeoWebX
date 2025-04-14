@@ -117,7 +117,7 @@ include_once '../components/header.php';
 </section>
 
 <!-- Team Section -->
-<section class="services-section">
+<!-- <section class="services-section">
     <div class="container">
         <div class="section-header">
             <div class="services-header" data-aos="fade-up">
@@ -129,7 +129,7 @@ include_once '../components/header.php';
             <div class="service-item" data-aos="fade-up">
                 <div class="service-card">
                     <img src="../assets/images/team1.jpg" alt="John Doe" class="team-image">
-                    <h3>John Doe</h3>
+                    <h3>Sukumar Saurav</h3>
                     <p>CEO & Founder</p>
                     <div class="social-links">
                         <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
@@ -172,7 +172,7 @@ include_once '../components/header.php';
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- CTA Section -->
 <section class="cta-section">
